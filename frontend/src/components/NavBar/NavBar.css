@@ -1,0 +1,19 @@
+.navbar {
+  height: 70px;
+  background-color: #252b31;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .brand-logo {
+  cursor: pointer;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 30px;
+  background-color: inherit;
+  border: none;
+}

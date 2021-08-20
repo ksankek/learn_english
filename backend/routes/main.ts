@@ -6,6 +6,6 @@ const mainController = new MainController();
 
 router.get("/", mainController.getWords);
 router.put("/", mainController.knowWord);
-router.post("/", mainController.addWord);
+router.post("/addword", mainController.addWord);
 
 export { router };

@@ -8,4 +8,4 @@ exports.router = router;
 var mainController = new main_controller_1.MainController();
 router.get("/", mainController.getWords);
 router.put("/", mainController.knowWord);
-router.post("/", mainController.addWord);
+router.post("/addword", mainController.addWord);

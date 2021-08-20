@@ -1,0 +1,25 @@
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.card {
+  background-color: #5e6668;
+  width: 360px;
+  height: 212px;
+}
+
+.card-content {
+  height: 143px;
+}
+
+.card-action button:last-child {
+  margin-left: 20px;
+}
+
+.material-icons {
+  cursor: pointer;
+  font-size: 50px;
+}

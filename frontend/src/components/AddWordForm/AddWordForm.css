@@ -1,0 +1,33 @@
+#input_word {
+  width: 300px;
+}
+
+#input_translate {
+  width: 300px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.input-field > label {
+  color: #000;
+}
+
+.btn,
+.btn-large {
+  background-color: #d89134;
+}
+
+.btn:hover {
+  background-color: #f3a135;
+}
+
+.btn:focus,
+.btn-large:focus,
+.btn-floating:focus {
+  background-color: #a56e25;
+}
